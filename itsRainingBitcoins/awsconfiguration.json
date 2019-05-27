@@ -1,0 +1,52 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:f8492241-1a3b-4cd2-aea3-01ebfac830e9",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_5mgKFkBn8",
+            "AppClientId": "2t3qi4njr7dtp1k95qddc51vau",
+            "AppClientSecret": "1qo1sadocukmq4jdk9ai8gpsp6sl51c6dompa4t7c4445irurp3p",
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "renterapp-userfiles-mobilehub-1059869088",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "ec3b2f575ea648478a1aba6b60f22189",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "UserFileManager": {
+        "Default": {
+            "Bucket": "renterapp-userfiles-mobilehub-1059869088",
+            "Region": "us-east-1"
+        }
+    }
+}
+

@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0382BE468410262A25B7A6CA /* Pods_itsRainingBitcoinsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988CF99AC61BEE72D0E995E8 /* Pods_itsRainingBitcoinsUITests.framework */; };
 		338FFD4B22990EE900DB259A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFD4A22990EE900DB259A /* AppDelegate.swift */; };
-		338FFD4D22990EE900DB259A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFD4C22990EE900DB259A /* ViewController.swift */; };
 		338FFD5022990EE900DB259A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FFD4E22990EE900DB259A /* Main.storyboard */; };
 		338FFD5222990EEA00DB259A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338FFD5122990EEA00DB259A /* Assets.xcassets */; };
 		338FFD5522990EEA00DB259A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338FFD5322990EEA00DB259A /* LaunchScreen.storyboard */; };
 		338FFD6022990EEA00DB259A /* itsRainingBitcoinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFD5F22990EEA00DB259A /* itsRainingBitcoinsTests.swift */; };
 		338FFD6B22990EEA00DB259A /* itsRainingBitcoinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFD6A22990EEA00DB259A /* itsRainingBitcoinsUITests.swift */; };
+		338FFDAA2299104000DB259A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDA92299104000DB259A /* WeatherViewController.swift */; };
+		338FFDAF2299116700DB259A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDAE2299116700DB259A /* WeatherModel.swift */; };
+		338FFDB22299142900DB259A /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDB12299142900DB259A /* ListRouter.swift */; };
+		338FFDB5229914DD00DB259A /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDB4229914DD00DB259A /* ListProtocols.swift */; };
+		338FFDB82299171100DB259A /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDB72299171100DB259A /* ListPresenter.swift */; };
+		338FFDBB2299174C00DB259A /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FFDBA2299174C00DB259A /* ListInteractor.swift */; };
+		338FFDE2229A1AD800DB259A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 338FFDE1229A1AD800DB259A /* awsconfiguration.json */; };
+		33F4E089229B8F310068482C /* FullCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4E088229B8F310068482C /* FullCityVC.swift */; };
+		33F4E08E229B9A8B0068482C /* FullCityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4E08D229B9A8B0068482C /* FullCityProtocols.swift */; };
+		33F4E090229B9B960068482C /* FullInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4E08F229B9B960068482C /* FullInteractor.swift */; };
+		33F4E092229B9BF00068482C /* FullPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4E091229B9BEF0068482C /* FullPresenter.swift */; };
+		33F4E094229B9C4A0068482C /* FullRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F4E093229B9C4A0068482C /* FullRouter.swift */; };
+		33F946C0229B51A40045489C /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F946BF229B51A40045489C /* Global.swift */; };
+		867CEB82CC4A6F2299E765A7 /* Pods_itsRainingBitcoinsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E39BFA478CADBF7DA88949 /* Pods_itsRainingBitcoinsTests.framework */; };
+		93888277AAD29E2A011B556F /* Pods_itsRainingBitcoins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DB3667D34D05832E025E42 /* Pods_itsRainingBitcoins.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21E39BFA478CADBF7DA88949 /* Pods_itsRainingBitcoinsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itsRainingBitcoinsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DB3667D34D05832E025E42 /* Pods_itsRainingBitcoins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itsRainingBitcoins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FFD4722990EE900DB259A /* itsRainingBitcoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itsRainingBitcoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FFD4A22990EE900DB259A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		338FFD4C22990EE900DB259A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		338FFD4F22990EE900DB259A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338FFD5122990EEA00DB259A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338FFD5422990EEA00DB259A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,26 @@
 		338FFD6622990EEA00DB259A /* itsRainingBitcoinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itsRainingBitcoinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FFD6A22990EEA00DB259A /* itsRainingBitcoinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itsRainingBitcoinsUITests.swift; sourceTree = "<group>"; };
 		338FFD6C22990EEA00DB259A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338FFDA92299104000DB259A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		338FFDAE2299116700DB259A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		338FFDB12299142900DB259A /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		338FFDB4229914DD00DB259A /* ListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
+		338FFDB72299171100DB259A /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		338FFDBA2299174C00DB259A /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		338FFDE1229A1AD800DB259A /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		33F4E088229B8F310068482C /* FullCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCityVC.swift; sourceTree = "<group>"; };
+		33F4E08D229B9A8B0068482C /* FullCityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCityProtocols.swift; sourceTree = "<group>"; };
+		33F4E08F229B9B960068482C /* FullInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullInteractor.swift; sourceTree = "<group>"; };
+		33F4E091229B9BEF0068482C /* FullPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPresenter.swift; sourceTree = "<group>"; };
+		33F4E093229B9C4A0068482C /* FullRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullRouter.swift; sourceTree = "<group>"; };
+		33F946BF229B51A40045489C /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		362C2DC152B14C70D8358233 /* Pods-itsRainingBitcoinsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoinsUITests.debug.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoinsUITests/Pods-itsRainingBitcoinsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C483AC8776CC967DFD2B47B /* Pods-itsRainingBitcoinsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoinsUITests.release.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoinsUITests/Pods-itsRainingBitcoinsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76C2B45EE6AEE344B481ABDA /* Pods-itsRainingBitcoinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoinsTests.release.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoinsTests/Pods-itsRainingBitcoinsTests.release.xcconfig"; sourceTree = "<group>"; };
+		866EDC8A9C61C886E1FE294C /* Pods-itsRainingBitcoins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoins.debug.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoins/Pods-itsRainingBitcoins.debug.xcconfig"; sourceTree = "<group>"; };
+		988CF99AC61BEE72D0E995E8 /* Pods_itsRainingBitcoinsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itsRainingBitcoinsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBA6930CE7AF450AB68CFC7 /* Pods-itsRainingBitcoins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoins.release.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoins/Pods-itsRainingBitcoins.release.xcconfig"; sourceTree = "<group>"; };
+		E80161CB3372153E3F0C5F74 /* Pods-itsRainingBitcoinsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itsRainingBitcoinsTests.debug.xcconfig"; path = "Target Support Files/Pods-itsRainingBitcoinsTests/Pods-itsRainingBitcoinsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93888277AAD29E2A011B556F /* Pods_itsRainingBitcoins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867CEB82CC4A6F2299E765A7 /* Pods_itsRainingBitcoinsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0382BE468410262A25B7A6CA /* Pods_itsRainingBitcoinsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,8 @@
 				338FFD5E22990EEA00DB259A /* itsRainingBitcoinsTests */,
 				338FFD6922990EEA00DB259A /* itsRainingBitcoinsUITests */,
 				338FFD4822990EE900DB259A /* Products */,
+				9141485F4C64A7B795EEEF17 /* Pods */,
+				B01BA101600E5A83AF5D2646 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,14 @@
 		338FFD4922990EE900DB259A /* itsRainingBitcoins */ = {
 			isa = PBXGroup;
 			children = (
+				338FFDA822990FFF00DB259A /* viperModule */,
 				338FFD4A22990EE900DB259A /* AppDelegate.swift */,
-				338FFD4C22990EE900DB259A /* ViewController.swift */,
 				338FFD4E22990EE900DB259A /* Main.storyboard */,
 				338FFD5122990EEA00DB259A /* Assets.xcassets */,
 				338FFD5322990EEA00DB259A /* LaunchScreen.storyboard */,
 				338FFD5622990EEA00DB259A /* Info.plist */,
+				338FFDE1229A1AD800DB259A /* awsconfiguration.json */,
+				33F946BF229B51A40045489C /* Global.swift */,
 			);
 			path = itsRainingBitcoins;
 			sourceTree = "<group>";
@@ -125,6 +168,95 @@
 			path = itsRainingBitcoinsUITests;
 			sourceTree = "<group>";
 		};
+		338FFDA822990FFF00DB259A /* viperModule */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDAB2299111800DB259A /* view */,
+				338FFDB92299173F00DB259A /* interactor */,
+				338FFDB62299170600DB259A /* presenter */,
+				338FFDAC2299113C00DB259A /* entity */,
+				338FFDB02299141700DB259A /* router */,
+				338FFDB3229914BE00DB259A /* protocols */,
+			);
+			path = viperModule;
+			sourceTree = "<group>";
+		};
+		338FFDAB2299111800DB259A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDA92299104000DB259A /* WeatherViewController.swift */,
+				33F4E088229B8F310068482C /* FullCityVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		338FFDAC2299113C00DB259A /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDAE2299116700DB259A /* WeatherModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		338FFDB02299141700DB259A /* router */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDB12299142900DB259A /* ListRouter.swift */,
+				33F4E093229B9C4A0068482C /* FullRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		338FFDB3229914BE00DB259A /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDB4229914DD00DB259A /* ListProtocols.swift */,
+				33F4E08D229B9A8B0068482C /* FullCityProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		338FFDB62299170600DB259A /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDB72299171100DB259A /* ListPresenter.swift */,
+				33F4E091229B9BEF0068482C /* FullPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		338FFDB92299173F00DB259A /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				338FFDBA2299174C00DB259A /* ListInteractor.swift */,
+				33F4E08F229B9B960068482C /* FullInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		9141485F4C64A7B795EEEF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				866EDC8A9C61C886E1FE294C /* Pods-itsRainingBitcoins.debug.xcconfig */,
+				ABBA6930CE7AF450AB68CFC7 /* Pods-itsRainingBitcoins.release.xcconfig */,
+				E80161CB3372153E3F0C5F74 /* Pods-itsRainingBitcoinsTests.debug.xcconfig */,
+				76C2B45EE6AEE344B481ABDA /* Pods-itsRainingBitcoinsTests.release.xcconfig */,
+				362C2DC152B14C70D8358233 /* Pods-itsRainingBitcoinsUITests.debug.xcconfig */,
+				3C483AC8776CC967DFD2B47B /* Pods-itsRainingBitcoinsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B01BA101600E5A83AF5D2646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29DB3667D34D05832E025E42 /* Pods_itsRainingBitcoins.framework */,
+				21E39BFA478CADBF7DA88949 /* Pods_itsRainingBitcoinsTests.framework */,
+				988CF99AC61BEE72D0E995E8 /* Pods_itsRainingBitcoinsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FFD6F22990EEA00DB259A /* Build configuration list for PBXNativeTarget "itsRainingBitcoins" */;
 			buildPhases = (
+				8F21AF11C243083920D420BE /* [CP] Check Pods Manifest.lock */,
 				338FFD4322990EE900DB259A /* Sources */,
 				338FFD4422990EE900DB259A /* Frameworks */,
 				338FFD4522990EE900DB259A /* Resources */,
+				FEAEAC9E917689247BE13984 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FFD7222990EEA00DB259A /* Build configuration list for PBXNativeTarget "itsRainingBitcoinsTests" */;
 			buildPhases = (
+				07040107D278E855E7A636F3 /* [CP] Check Pods Manifest.lock */,
 				338FFD5722990EEA00DB259A /* Sources */,
 				338FFD5822990EEA00DB259A /* Frameworks */,
 				338FFD5922990EEA00DB259A /* Resources */,
@@ -167,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FFD7522990EEA00DB259A /* Build configuration list for PBXNativeTarget "itsRainingBitcoinsUITests" */;
 			buildPhases = (
+				A7ACE62FCBAB07BAFCCAC1D7 /* [CP] Check Pods Manifest.lock */,
 				338FFD6222990EEA00DB259A /* Sources */,
 				338FFD6322990EEA00DB259A /* Frameworks */,
 				338FFD6422990EEA00DB259A /* Resources */,
@@ -229,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338FFDE2229A1AD800DB259A /* awsconfiguration.json in Resources */,
 				338FFD5522990EEA00DB259A /* LaunchScreen.storyboard in Resources */,
 				338FFD5222990EEA00DB259A /* Assets.xcassets in Resources */,
 				338FFD5022990EE900DB259A /* Main.storyboard in Resources */,
@@ -251,12 +388,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07040107D278E855E7A636F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itsRainingBitcoinsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F21AF11C243083920D420BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itsRainingBitcoins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7ACE62FCBAB07BAFCCAC1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itsRainingBitcoinsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAEAC9E917689247BE13984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-itsRainingBitcoins/Pods-itsRainingBitcoins-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-itsRainingBitcoins/Pods-itsRainingBitcoins-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		338FFD4322990EE900DB259A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338FFD4D22990EE900DB259A /* ViewController.swift in Sources */,
+				33F946C0229B51A40045489C /* Global.swift in Sources */,
+				33F4E092229B9BF00068482C /* FullPresenter.swift in Sources */,
+				33F4E090229B9B960068482C /* FullInteractor.swift in Sources */,
+				33F4E094229B9C4A0068482C /* FullRouter.swift in Sources */,
+				33F4E08E229B9A8B0068482C /* FullCityProtocols.swift in Sources */,
+				338FFDBB2299174C00DB259A /* ListInteractor.swift in Sources */,
+				33F4E089229B8F310068482C /* FullCityVC.swift in Sources */,
+				338FFDB82299171100DB259A /* ListPresenter.swift in Sources */,
+				338FFDB22299142900DB259A /* ListRouter.swift in Sources */,
+				338FFDAF2299116700DB259A /* WeatherModel.swift in Sources */,
+				338FFDB5229914DD00DB259A /* ListProtocols.swift in Sources */,
+				338FFDAA2299104000DB259A /* WeatherViewController.swift in Sources */,
 				338FFD4B22990EE900DB259A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +681,7 @@
 		};
 		338FFD7022990EEA00DB259A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866EDC8A9C61C886E1FE294C /* Pods-itsRainingBitcoins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +699,7 @@
 		};
 		338FFD7122990EEA00DB259A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBA6930CE7AF450AB68CFC7 /* Pods-itsRainingBitcoins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +717,7 @@
 		};
 		338FFD7322990EEA00DB259A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80161CB3372153E3F0C5F74 /* Pods-itsRainingBitcoinsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +738,7 @@
 		};
 		338FFD7422990EEA00DB259A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C2B45EE6AEE344B481ABDA /* Pods-itsRainingBitcoinsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +759,7 @@
 		};
 		338FFD7622990EEA00DB259A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362C2DC152B14C70D8358233 /* Pods-itsRainingBitcoinsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +779,7 @@
 		};
 		338FFD7722990EEA00DB259A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C483AC8776CC967DFD2B47B /* Pods-itsRainingBitcoinsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
